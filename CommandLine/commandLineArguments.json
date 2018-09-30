@@ -1,0 +1,22 @@
+{
+  "-name" : {
+       "dest"    : "name",
+       "default" : "FREDDY",
+       "action"  : "store",
+       "required": "True",
+       "help"    : "Specify the First Name"
+  },
+   "-surname" : {
+       "dest"    : "surname",
+       "default" : "CARDOZO",
+       "action"  : "store",
+       "help"    : "Specify the Last Name"
+    },
+   "-gender" : {
+       "dest"    : "gender",
+       "default" : "Male",
+       "action"  : "store",
+	   "choices" : ['Male', 'Female'],
+       "help"    : "Specify the Last Name"
+    }
+}
