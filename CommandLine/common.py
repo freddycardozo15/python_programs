@@ -1,12 +1,11 @@
 import argparse
-
-
+from collections import OrderedDict as od
 
 # Description :   Process command line arguments using argparse python module
 # Input Arguments:
-#           cmdLineDict : Dictionary having all the options being passed
+#    1. cmdLineDict : Dictionary having all the options being passed
 # Return Value:
-#            Argument Parser object having all the parsed objects
+#    cmdLineObj  : Argument Parser object having all the parsed objects
 def processCommandLineArgs(cmdLineDict=od()):
     argParseObj = argparse.ArgumentParser(description="Parse the command line arguments")
     for option in cmdLineDict:
