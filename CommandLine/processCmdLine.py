@@ -2,7 +2,7 @@
 # The command parameters are defined in the json file commandLine.json 
 
 try:
-  cmdLineDict = readJsonFile('cmdLine.json')
+  cmdLineDict = readJsonFile('commandLineARguments.json')
   cmdLineObj  = processCommandLineArgs(cmdLineDict)
 except:
   print "Error occured"
