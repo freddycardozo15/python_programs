@@ -1,2 +1,2 @@
-This directory contains all the programs list of programs which use tuples
+This directory contains all the list of programs which use tuples
 
